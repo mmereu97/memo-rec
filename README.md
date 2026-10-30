@@ -4,6 +4,8 @@
 
 I use it daily on my phone.
 
+<p align="center"><img src="docs/screenshot.png" width="300" alt="MemoRec: the recording screen"></p>
+
 **Tech:** Flutter / Dart · record (AAC) · just_audio · flutter_local_notifications · share_plus · SharedPreferences
 
 ---
