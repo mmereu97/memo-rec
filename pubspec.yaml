@@ -1,0 +1,37 @@
+name: memo_rec
+description: "MemoRec: one-tap audio recorder for Android with quality presets, auto-stop and a searchable list of recordings."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Audio recording
+  record: ^6.0.0
+
+  # File paths
+  path_provider: ^2.1.3
+
+  # Audio playback
+  just_audio: ^0.9.40
+
+  # Share files
+  share_plus: ^10.0.0
+
+  # Settings persistence
+  shared_preferences: ^2.2.3
+
+  # Notificari cu actiuni
+  flutter_local_notifications: ^18.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
